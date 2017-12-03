@@ -1,5 +1,5 @@
 """
-Solution for Day 1 of the Advent of Code 2017.
+Calculates the sum of all identical consecutive digits read from stdin.
 """
 import sys
 if __name__ == "__main__":

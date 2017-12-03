@@ -1,5 +1,6 @@
 """
-Solution for Day 2 of the Advent of Code 2017.
+Calculates the sum of the ranges of tab-separated lines of numbers read from
+stdin.
 """
 import sys
 if __name__ == "__main__":

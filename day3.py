@@ -1,5 +1,6 @@
 """
-Solution for Day 3 of the Advent of Code 2017.
+Calculates the Manhattan distance between a point N on an Ulam spiral passed
+as an argument and the origin.
 """
 
 from math import floor, sqrt
