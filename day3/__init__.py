@@ -70,7 +70,6 @@ def find_limit(limit):
     def calculate_sum(location):
         position = ulam_transformation(location - 1)
         accumulator = 0
-        print(location, position, list(neighbours(position)))
         for neighbour_position in neighbours(position):
             neighbour_location = inverse_ulam_transformation(neighbour_position) + 1
             if neighbour_location < location:
@@ -79,7 +78,6 @@ def find_limit(limit):
                 else:
                     neighbour_sum = calculate_sum(neighbour_location)
                     memory[neighbour_location] = neighbour_sum
-                    print(neighbour_location, neighbour_sum)
                 accumulator += neighbour_sum
         return accumulator
 

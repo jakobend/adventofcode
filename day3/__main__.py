@@ -10,4 +10,4 @@ INPUT = 277678
 
 doctest.testmod(sys.modules[__package__])
 print("Part 1:", calculate_steps(INPUT))
-print(find_limit(INPUT))
+print("Part 2:", find_limit(INPUT))
